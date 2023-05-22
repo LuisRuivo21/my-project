@@ -1,4 +1,4 @@
-import logo from "../public/images/logo.png";
+// import logo from "../public/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -26,7 +26,7 @@ const Navbar = () => {
             transition={{ duration: 1 }}
             className="flex items-center"
           >
-            <Image className="w-10 pr-1 lg:w-16" src={logo} alt="logo" />
+            {/* <Image className="w-10 pr-1 lg:w-16" src={logo} alt="logo" /> */}
             <div className="font-brunoAce text-2xl font-bold lg:text-4xl">
               Blog<span className="text-xl font-thin lg:text-2xl">News</span>
             </div>
