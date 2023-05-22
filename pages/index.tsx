@@ -24,7 +24,7 @@ export default function HomePage() {
               transition={{ duration: 1, delay: 0.9 }}
               className="font-playfairDisplay text-5xl py-5"
             >
-              Inspiring innovation.
+              Inspiring innovation TEST.
             </motion.div>
             <motion.div
               initial={{ y: 10, opacity: 0 }}
