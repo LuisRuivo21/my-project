@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import image from "../public/images/image.png";
+// import image from "../public/images/image.png";
 import { BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
       <div>
         <Link href="/">
           <div className="flex items-center">
-            <Image className="w-5 pr-1 smd:w-10" src={image} alt="image" />
+            {/* <Image className="w-5 pr-1 smd:w-10" src={image} alt="image" /> */}
             <div className="font-brunoAce text-white text-xs smd:text-2xl lg:text-4xl">
               Blog
               <span className="font-thin text-xs smd:text-2xl lg:text-2xl">
