@@ -1,4 +1,4 @@
-import { logo } from "../public/assets/index";
+import logo from "../public/assets/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
