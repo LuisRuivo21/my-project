@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { image } from "@/public/assets";
+import image from "../public/images/image.png";
 import { BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
